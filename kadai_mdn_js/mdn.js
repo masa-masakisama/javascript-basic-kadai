@@ -1,17 +1,17 @@
 // 「年」の関数を定義する
-const onYear = new Date("August 19, 1975 23:15:30");
+const onYear = new Date("June 02, 2025 10:55:30");
 
 // 今日の「年」を設定する
 onYear.setFullYear(2025);
 
 // 「月」の関数を定義する
-const onMonth = new Date("August 19, 1975 23:15:30");
+const onMonth = new Date("June 02, 2025 10:55:30");
 
 // 今日の「月」を設定する
-onMonth.setMonth(06);
+onMonth.setMonth(06) + 1;
 
 // 「日」の関数を定義する
-const onDate = new Date("August 19, 1975 23:15:30");
+const onDate = new Date("June 02, 2025 10:55:30");
 
 // 今日の「日」を設定する
 onDate.setDate(02);
